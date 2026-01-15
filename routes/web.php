@@ -26,6 +26,13 @@ Route::view('/pasangloker','front.pages.pasangloker')->name('pasangloker');
 Route::view('/pelatihan','front.pages.pelatihan')->name('pelatihan');
 Route::view('/tentang','front.pages.tentang')->name('tentang');
 
+// Pages Bantuan
+Route::view('/syarat-ketentuan','front.helps.syarat')->name('helps.syarat');
+Route::view('/kebijakan-privasi','front.helps.privasi')->name('helps.privasi');
+Route::view('/faq','front.helps.faq')->name('helps.faq');
+Route::view('/hubungi-kami','front.helps.kontak')->name('helps.kontak');
+
+
 /*
 |--------------------------------------------------------------------------
 | COMPANY PANEL (future)

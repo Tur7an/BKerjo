@@ -78,25 +78,25 @@
         </h4>
         <ul class="space-y-4">
           <li>
-            <a href="#" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="{{ route('helps.syarat') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
               <i class="fas fa-file-contract text-xs group-hover:text-[#2C7404] transition-colors"></i>
               <span>Syarat & Ketentuan</span>
             </a>
           </li>
           <li>
-            <a href="#" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="{{ route('helps.privasi') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
               <i class="fas fa-shield-alt text-xs group-hover:text-[#2C7404] transition-colors"></i>
               <span>Kebijakan Privasi</span>
             </a>
           </li>
           <li>
-            <a href="#" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="{{ route('helps.faq') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
               <i class="fas fa-question text-xs group-hover:text-[#2C7404] transition-colors"></i>
               <span>FAQ</span>
             </a>
           </li>
           <li>
-            <a href="#" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="{{ route('helps.kontak') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
               <i class="fas fa-headset text-xs group-hover:text-[#2C7404] transition-colors"></i>
               <span>Hubungi Kami</span>
             </a>
