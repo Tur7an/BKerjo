@@ -1,4 +1,5 @@
 @extends('front.layout')
+@section('title','Pelatihan - BKerjo')
 
 @section('content')
 <section class="bg-white rounded-3xl p-10">

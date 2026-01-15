@@ -1,4 +1,6 @@
 @extends('front.layout')
+@section('title','Hubungi Kami - BKerjo')
+
 @section('content')
 
 <!-- Hero Section -->

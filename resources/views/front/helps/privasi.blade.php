@@ -1,4 +1,6 @@
 @extends('front.layout')
+@section('title','Kebijakan Privasi - BKerjo')
+
 @section('content')
 
 <!-- Hero Section -->

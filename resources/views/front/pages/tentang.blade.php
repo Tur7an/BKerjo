@@ -1,5 +1,5 @@
 @extends('front.layout')
-@section('title','Tentang Kami - bkerjo.com')
+@section('title','Tentang Kami - BKerjo')
 
 @section('content')
 

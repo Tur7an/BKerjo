@@ -1,4 +1,6 @@
 @extends('front.layout')
+@section('title','FAQ - BKerjo')
+
 @section('content')
 
 <!-- Hero Section -->
@@ -39,7 +41,7 @@
 <!-- Main Content -->
 <section class="max-w-4xl mx-auto px-4 sm:px-6">
   <div class="mb-10">
-    
+
     <!-- FAQ Categories -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
       <div class="text-center p-6 bg-blue-50 rounded-xl border border-blue-100 hover:border-blue-300 transition-colors cursor-pointer" data-category="general">

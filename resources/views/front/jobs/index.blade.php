@@ -1,4 +1,5 @@
 @extends('front.layout')
+@section('title','Daftar Lowongan - BKerjo')
 
 @section('content')
 
