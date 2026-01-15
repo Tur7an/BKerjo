@@ -97,10 +97,9 @@
     
     <!-- Action Button -->
     <div class="px-5 pb-5">
-      <a href="#" 
+      <a href="{{ route('jobs.detail', 'frontend-developer') }}" 
          class="block w-full bg-gradient-to-r from-[#080D70] to-[#2C7404] hover:from-[#05084d] hover:to-[#1e5a03] text-white font-bold py-3.5 rounded-xl text-center transition-all duration-300 hover:shadow-md flex items-center justify-center gap-2 group/apply">
-        <i class="fas fa-paper-plane group-hover/apply:translate-x-0.5 transition-transform"></i>
-        Lamar Sekarang
+        Lihat Detail
       </a>
     </div>
   </div>
