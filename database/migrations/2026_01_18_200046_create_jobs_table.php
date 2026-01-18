@@ -27,10 +27,7 @@ return new class extends Migration
             $table->integer('salary_min')->nullable();
             $table->integer('salary_max')->nullable();
 
-            $table->string('education')->nullable();
-
-            $table->enum('status', ['pending','published','rejected'])
-                ->default('pending');
+            $table->enum('status', ['pending','published','rejected'])->default('pending');
 
             $table->timestamp('published_at')->nullable();
 
@@ -45,7 +42,5 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('jobs');
-        Schema::dropIfExists('job_batches');
-        Schema::dropIfExists('failed_jobs');
     }
 };

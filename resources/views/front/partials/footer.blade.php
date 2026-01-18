@@ -56,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="{{ route('pasangloker') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="{{ route('pasangloker.create') }}" class="text-blue-200 hover:text-white transition-colors flex items-center gap-2 group">
               <i class="fas fa-plus-circle text-xs group-hover:text-[#2C7404] transition-colors"></i>
               <span>Pasang Lowongan</span>
             </a>

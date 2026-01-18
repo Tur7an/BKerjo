@@ -34,7 +34,7 @@
           </a>
         </li>
         <li>
-          <a href="{{ route('pasangloker') }}" 
+          <a href="{{ route('pasangloker.create') }}" 
              class="relative px-3 py-2 text-gray-700 hover:text-[#080D70] transition-colors duration-300 group">
             <i class="fas fa-bullhorn mr-2 text-sm opacity-70 group-hover:opacity-100"></i>
             Pasang Loker
@@ -64,7 +64,7 @@
 
       <!-- Desktop CTA Button (hidden di mobile) -->
       <div class="hidden md:block">
-        <a href="{{ route('pasangloker') }}"
+        <a href="{{ route('pasangloker.create') }}"
            class="relative bg-gradient-to-r from-[#2C7404] via-green-600 to-[#2C7404] hover:from-green-600 hover:via-[#2C7404] hover:to-green-600 text-white px-6 py-3 rounded-full font-bold transition-all duration-500 hover:scale-105 hover:shadow-xl shadow-lg shadow-green-200 bg-[length:200%_auto]">
           <i class="fas fa-plus-circle mr-2"></i>
           Pasang Loker Gratis
@@ -89,7 +89,7 @@
           <span class="font-semibold text-gray-800">Cari Loker</span>
         </a>
         
-        <a href="{{ route('pasangloker') }}" class="flex items-center p-3 rounded-lg hover:bg-orange-50 transition-colors group">
+        <a href="{{ route('pasangloker.create') }}" class="flex items-center p-3 rounded-lg hover:bg-orange-50 transition-colors group">
           <div class="w-10 h-10 flex items-center justify-center bg-orange-100 rounded-lg group-hover:bg-orange-200 transition-colors mr-3">
             <i class="fas fa-bullhorn text-orange-600"></i>
           </div>
@@ -114,7 +114,7 @@
         </a>
         
         <!-- Mobile CTA Button di dalam dropdown -->
-        <a href="{{ route('pasangloker') }}" 
+        <a href="{{ route('pasangloker.create') }}" 
            class="block mt-4 p-4 bg-gradient-to-r from-[#2C7404] to-green-600 text-white rounded-xl font-bold text-center transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
           <div class="flex items-center justify-center gap-2">
             <i class="fas fa-plus-circle text-lg"></i>
